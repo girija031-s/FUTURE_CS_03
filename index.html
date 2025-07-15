@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Secure File Share Portal</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/254/254638.png">
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f2f5fc;
+            padding: 40px;
+            color: #2e2e2e;
+        }
+
+        h1 {
+            color: #0078D4;
+            font-size: 28px;
+        }
+
+        h3 {
+            margin-top: 40px;
+            color: #444;
+        }
+
+        form {
+            background-color: #ffffff;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            max-width: 500px;
+        }
+
+        input[type="file"] {
+            margin-bottom: 20px;
+        }
+
+        button {
+            background-color: #0078D4;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        ul {
+            padding-left: 0;
+            list-style-type: none;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        a {
+            color: #0078D4;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .message {
+            padding: 12px;
+            background-color: #d4edda;
+            color: #256029;
+            border: 1px solid #c3e6cb;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            max-width: 500px;
+        }
+
+        footer {
+            margin-top: 60px;
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🔐 Secure File Share Portal</h1>
+
+    {% if message %}
+      <div class="message">{{ message }}</div>
+    {% endif %}
+
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".txt,.pdf,.jpg,.png" required>
+        <br>
+        <button type="submit">Upload & Encrypt</button>
+    </form>
+
+    <h3>📥 Download Decrypted Files:</h3>
+    <ul>
+      {% for file in files %}
+        <li><a href="/download/{{ file }}">{{ file.replace('.enc', '') }}</a></li>
+      {% endfor %}
+    </ul>
+
+    <footer>
+        🛡️ Built with Flask & AES encryption by <strong>Girija</strong> 👩‍💻
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fe49c713-0e9c-45a9-8e64-e969ef11d791" name="Changes" comment="Initial commit: secure file sharing system with encryption, logging, and styled UI" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;girija031-s&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/girija031-s/futureintern_cs_3&quot;,
+    &quot;accountId&quot;: &quot;6122a74e-5e17-4684-ae21-5cc365c35c42&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2zlnyMzBQZuht4KkxxSYxhE1Fyl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.app.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "vcs.Git"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-53e2683a6804-9cdd278e9d02-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.26094.141" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe49c713-0e9c-45a9-8e64-e969ef11d791" name="Changes" comment="" />
+      <created>1752314780575</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1752314780575</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit: secure file sharing system with encryption, logging, and styled UI">
+      <option name="closed" value="true" />
+      <created>1752333361139</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1752333361139</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial commit: secure file sharing system with encryption, logging, and styled UI">
+      <option name="closed" value="true" />
+      <created>1752336105514</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1752336105514</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial commit: secure file sharing system with encryption, logging, and styled UI">
+      <option name="closed" value="true" />
+      <created>1752336879814</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1752336879814</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Initial commit: secure file sharing system with encryption, logging, and styled UI">
+      <option name="closed" value="true" />
+      <created>1752390728314</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1752390728314</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Initial commit: secure file sharing system with encryption, logging, and styled UI">
+      <option name="closed" value="true" />
+      <created>1752589084575</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1752589084575</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit: Secure File Share System with AES encryption &amp; logging" />
+    <MESSAGE value="Initial commit: secure file sharing system with encryption, logging, and styled UI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit: secure file sharing system with encryption, logging, and styled UI" />
+  </component>
+</project>
