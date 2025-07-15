@@ -11,7 +11,7 @@ Secure File Sharing System
 🌐 Flask backend with HTML UI
 🚫 Sensitive file exclusions via .gitignore 
 🔹 4. Installation Clone the repo and install dependencies: 
-Github link:
+Github link:https://github.com/girija031-s/FUTURE_CS_03.git
 cd secure_file_share pip install -r requirements.txt
 Add your AES key to .env
 Run the app: python app.py
